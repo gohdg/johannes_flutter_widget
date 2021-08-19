@@ -36,7 +36,6 @@ class _HearAnimationWidgetState extends State<HearAnimationWidget>
 
   @override
   void didUpdateWidget(covariant HearAnimationWidget oldWidget) {
-    // TODO: implement didUpdateWidget
     super.didUpdateWidget(oldWidget);
 
     if (widget.isAnimating != oldWidget.isAnimating) {
